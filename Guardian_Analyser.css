@@ -1,0 +1,186 @@
+/*
+ * Guardian Analyser
+ * Style-sheet
+ *
+ * Copyright (C) 2013 Billy Lim Jun Ming
+ * Licensed under GNU GPL
+ */
+
+body
+{
+	background-color: #99CCFF;
+	margin: 0px;
+}
+
+#container /* middle white portion */
+{
+	width: 1000px;
+	margin: 0px auto;
+	text-align: center;
+	background-color: white;
+}
+
+a:link, a:visited
+{
+	color: black;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: blue;
+	text-decoration: underline;
+}
+
+#navbar a:hover
+{
+	color: black;
+	text-decoration: none;
+}
+
+.line-seperator /* simple black line divider */
+{
+	height: 1px;
+	background-color: #999999;
+}
+
+#header
+{
+	padding: 20px 0px 0px 0px;
+}
+
+#navbar
+{
+	list-style-type:none;
+	height: 30px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#navbar li
+{
+	width: 100px;
+	display: inline;
+	padding: 0px 20px;
+	line-height: 30px;
+	font-family: Verdana;
+	font-weight: bold;
+}
+
+.current_page /* navbar element for current page */
+{
+	color: #AAAAAA;
+}
+
+#content
+{
+	padding: 10px 50px;
+}
+
+#intro 
+{
+	font-family: sans-serif;
+	background-color: white;
+	text-align: left;
+}
+
+.intro-title /* section headers for intro */
+{
+	margin: 0px;
+	padding: 10px 0px;
+	font-family: "Arial Black";
+}
+
+#search-form 
+{
+	text-align: center;
+	font-family: Arial;
+	font-size: 13px;
+}
+
+#search-right, #search-left /* left & right side of search-form */
+{
+	display: inline-block;
+	width: 49%;
+}
+
+.search-field /* title of each search filter */
+{
+	font-family: "Arial";
+	font-size: 15px;
+	font-weight: 600;
+	margin: 20px 0px 0px 0px;
+	padding: 0px;
+}
+
+input [type='text'],input [type='number'],input 
+{
+	text-align: center;
+	padding: 2px;
+}
+
+#sections-table
+{
+	margin: 0px auto;
+	text-align: left;
+	table-layout: fixed;
+}
+
+#sections-table td 
+{ 
+	
+	width: 100px;
+}
+
+#sections-note /* about unexhaustive sections list */
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: red;
+	color: red;
+	width: 280px;
+	margin: 0px auto;
+	padding: 5px 0px;
+}
+
+#results 
+{
+	padding: 10px 0px;
+	text-align: center;
+}
+
+.results-title 
+{
+	margin: 0px;
+	padding: 20px 0px 0px 0px;
+	text-align: center;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 25px;
+}
+
+.stats /* space for flot graphs */
+{
+	height: 400px;
+	margin: 30px auto;
+	padding: 0px 50px;
+}
+
+#words-table
+{
+	margin: 30px auto;
+	text-align: left;
+	table-layout: fixed;
+}
+
+#words-table td 
+{ 
+	width: 180px; 
+}
+
+#section-label /* for interactive section graph */
+{
+	margin: 0px auto;
+	padding: 20px;
+	height: 20px;
+	font-family: 'Arial';
+}
