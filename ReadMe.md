@@ -6,8 +6,8 @@ Written in HTML, PHP & JavaScript.
 Created as my final project for CS50x, Winter 2012.   
 
 ## Screenshots:
-![Intro screenshot](./screenshots/Guardian Analyser Intro.jpg)  
-![Search screenshot](./screenshots/Guardian Analyser Search.jpg)  
+![Intro screenshot](screenshots/Intro.jpg)  
+![Search screenshot](screenshots/Search.jpg)  
 
 ## How to Use:
 1. Get Apache HTTP or any other similar programs.  
