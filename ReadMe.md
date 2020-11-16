@@ -5,10 +5,6 @@ Parses headlines' words, articles dates & articles' sections.
 Written in HTML, PHP & JavaScript.  
 Created as my final project for CS50x, Winter 2012.   
 
-## Screenshots:
-![Intro screenshot](screenshots/Intro.jpg)  
-![Search screenshot](screenshots/Search.jpg)  
-
 ## How to Use:
 1. Get Apache HTTP or any other similar programs.  
    If unfamiliar with installing Apache HTTP, google for tutorials on how to install it.  
@@ -46,7 +42,11 @@ Contains the images used, namely the logo, the loading animation & my logo.
 
 `js`  
 Contains the 2 .js files used. One is to create the search URL to be passed to Render.php.  
-The other is to ensure the middle container stretches to fill the window height on large screens. 
+The other is to ensure the middle container stretches to fill the window height on large screens.  
+
+## Screenshots:
+![Intro screenshot](screenshots/Intro.jpg)  
+![Search screenshot](screenshots/Search.jpg)  
 
 **  
 Billy Lim Jun Ming  
